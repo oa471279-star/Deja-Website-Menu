@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DEJA ديجا — بنعملها صح في ديجا</title>
+<meta name="description" content="اطلب بيتزا وبرجر وباجت ووجبات استربس من ديجا. اختار طلبك وابعته على واتساب.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="DEJA ديجا — بنعملها صح في ديجا">
+<meta property="og:description" content="اطلب بيتزا وبرجر وباجت ووجبات استربس من ديجا. اختار طلبك وابعته على واتساب.">
+<meta property="og:image" content="assets/images/mascot/chef-hero.png">
+<meta property="og:locale" content="ar_EG">
+<meta name="theme-color" content="#FA3316">
+<link rel="icon" type="image/png" href="assets/icons/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/responsive.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"DEJA ديجا","slogan":"بنعملها صح في ديجا","servesCuisine":["Pizza","Burgers"],"telephone":"+201043381841","hasMenu":"menu.html"}</script>
+</head>
+<body>
+<a class="skip" href="#main">تخطي إلى المحتوى</a>
+<header class="site-header" id="site-header"></header>
+<main id="main">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <h1 class="sr">DEJA ديجا — بنعملها صح في ديجا</h1>
+        <img class="hero-slogan" src="assets/images/logo/slogan.png" alt="بنعملها صح في ديجا — WE DO IT RIGHT IN DEJA" width="1149" height="221">
+        <p id="intro"></p>
+        <div class="hero-cta">
+          <a class="btn" href="menu.html">اطلب دلوقتي</a>
+          <a class="btn btn-ghost" href="#categories">شوف الأقسام</a>
+        </div>
+      </div>
+      <div class="hero-art"><img src="assets/images/mascot/chef-hero.png" alt="شيف ديجا يقدم الطلب" width="1000" height="963"></div>
+    </div>
+  </section>
+  <div class="divider" aria-hidden="true"></div>
+
+  <section class="section" id="featured" aria-labelledby="h-featured">
+    <div class="wrap">
+      <div class="section-head"><h2 class="h2" id="h-featured">المنتجات المميزة</h2><a class="link-more" href="menu.html">كل المنيو</a></div>
+      <div class="grid" id="featured-grid" data-reveal></div>
+    </div>
+  </section>
+
+  <section class="section" id="categories" aria-labelledby="h-cats" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head"><h2 class="h2" id="h-cats">أقسام المنيو</h2></div>
+      <div class="cat-grid" id="cat-grid" data-reveal></div>
+    </div>
+  </section>
+
+  <section class="section offers" id="offers" aria-labelledby="h-offers" hidden>
+    <div class="wrap">
+      <div class="section-head"><div><h2 class="h2" id="h-offers">وجبات ديجا</h2><p class="lead">وجبات كاملة بسعر واحد، جاهزة للطلب.</p></div></div>
+      <div class="offer-list" id="offer-list" data-reveal></div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="h-why">
+    <div class="wrap">
+      <div class="section-head"><h2 class="h2" id="h-why">ليه ديجا</h2></div>
+      <div class="why" id="why" data-reveal></div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="wrap"><div class="cta-band" data-reveal>
+      <img src="assets/images/mascot/chef-tray.png" alt="شيف ديجا" loading="lazy" width="1000" height="899">
+      <div><h2>جاهز تطلب؟</h2><p>اختار من المنيو، راجع السلة، وابعت الطلب على واتساب.</p><a class="btn" href="menu.html">افتح المنيو</a></div>
+    </div></div>
+  </section>
+</main>
+<footer class="site-footer" id="site-footer"></footer>
+<script src="js/data.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/app.js"></script>
+<script src="js/home.js"></script>
+<script>DEJA.renderChrome("home");</script>
+</body>
+</html>
